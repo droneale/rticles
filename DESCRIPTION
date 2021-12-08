@@ -1,7 +1,7 @@
 Package: rticles
 Type: Package
 Title: Article Formats for R Markdown
-Version: 0.21.8
+Version: 0.21.9
 Authors@R: c(
   person("JJ", "Allaire", role = "aut", email = "jj@rstudio.com"),
   person("Yihui", "Xie", role = c("aut", "cre"), email = "xie@yihui.name", comment = c(ORCID = "0000-0003-0645-5666")),
@@ -65,6 +65,10 @@ Suggests:
     xtable,
     testthat (>= 3.0.0)
 Encoding: UTF-8
-Config/Needs/website: magick, pdftools, gifski, rstudio/quillt
+Config/Needs/website: magick,
+ pdftools,
+ gifski,
+ tidyverse/tidytemplate,
+ rstudio/quillt
 Roxygen: list(markdown = TRUE)
 Config/testthat/edition: 3
