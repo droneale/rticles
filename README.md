@@ -34,7 +34,7 @@ If you wish to install the development version from GitHub (which often
 contains new article formats), you can do this:
 
 ``` r
-remotes::install_github("rstudio/rticles")
+remotes::install_github("droneale/rticles")
 ```
 
 ## Using rticles
